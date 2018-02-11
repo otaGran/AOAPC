@@ -68,7 +68,11 @@ Divide and Conquer.
 
   ```c++
 
+<<<<<<< HEAD
   
+=======
+    //
+>>>>>>> b213b3b89170ff3586d96eb7da7d5e30b782575c
     // Created by beans_pc on 2/11/2018.
     //
     #include <iostream>
