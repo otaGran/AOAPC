@@ -18,12 +18,6 @@ Divide and Conquer.
     无需合并。此时数组已排序
 
   ```c++
-  //
-  // Created by beans_pc on 2/11/2018.
-  //
-  #include <iostream>
-
-  using namespace std;
 
   int parition(int* A, int lo,int hi){
       int pivot = A[hi];
@@ -45,16 +39,6 @@ Divide and Conquer.
       }
   }
 
-  int main(){
-      int length,data[100];
-      cin >> length;
-      for(int i = 0;i<length;i++)
-          cin >> data[i];
-      quickSort(data,0,length-1);
-
-      for(int i = 0;i<length;i++)
-          cout << data[i] << " ";
-  }
 
     ```
 ---
@@ -67,18 +51,6 @@ Divide and Conquer.
 
 
   ```c++
-
-<<<<<<< HEAD
-  
-=======
-    //
->>>>>>> b213b3b89170ff3586d96eb7da7d5e30b782575c
-    // Created by beans_pc on 2/11/2018.
-    //
-    #include <iostream>
-
-    using namespace std;
-
     int parition(int* A,int lo,int hi){
         int pivot = A[hi];//pick an element
         int i = lo - 1;
@@ -106,15 +78,5 @@ Divide and Conquer.
                 topK(A, lo, p - 1, k-howManyInHi);
             }
         }
-    }
-    int main(){
-        int length,data[100],k;
-        cin >> k >> length;
-        for(int i = 0;i<length;i++){
-            cin >> data[i];
-        }
-
-
-        cout << topK(data,0,length-1,k);
     }
     ```
