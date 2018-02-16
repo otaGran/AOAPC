@@ -38,6 +38,8 @@
 
   输入为左闭右开区间[x,y),但输出可能为闭区间[x,y],因为如果v值大于A[x-1],输出为y.
 
+
+
   ~~~c++
     int my_lower_bound(int* A,int x,int y,int v){
         int m;
@@ -52,7 +54,7 @@
         return x;
     }
 
-    ~~~
+  ~~~
 
     ---
 
